@@ -1,26 +1,119 @@
-.btn {
-  font-size: 250%;
-  height: 20%;
-  width: 9%;
-  margin-top: 0.5%;
-  margin-bottom: 0.5%;
-  padding-top: 0.3%;
-  padding-bottom: 0.3%;
-  border: 2px solid black;
-  border-radius: 10%;
-  text-transform: uppercase;
+/* Mobile styles*/
+@media screen and (min-width: 320px) {
+  .btn {
+    font-size: 180%;
+    height: 20%;
+    width: 20%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    border: 2px solid black;
+    border-radius: 10%;
+    text-transform: uppercase;
+  }
+
+  .btn.active {
+    background-color: hsl(200, 100%, 75%);
+    color: white;
+  }
+
+  .btn.inactive {
+    opacity: 0.3;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsl(200, 100%, 75%);
+  }
 }
 
-.btn.active {
-  background-color: hsl(200, 100%, 75%);
-  color: white;
+/* Tablet styles*/
+@media screen and (min-width: 760px) {
+  .btn {
+    font-size: 180%;
+    height: 20%;
+    width: 13%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    border: 2px solid black;
+    border-radius: 10%;
+    text-transform: uppercase;
+  }
+
+  .btn.active {
+    background-color: hsl(200, 100%, 75%);
+    color: white;
+  }
+
+  .btn.inactive {
+    opacity: 0.3;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsl(200, 100%, 75%);
+  }
 }
 
-.btn.inactive {
-  opacity: 0.3;
+/* Laptop styles*/
+@media screen and (min-width: 1000px) {
+  .btn {
+    font-size: 200%;
+    height: 20%;
+    width: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    border: 2px solid black;
+    border-radius: 10%;
+    text-transform: uppercase;
+  }
+
+  .btn.active {
+    background-color: hsl(200, 100%, 75%);
+    color: white;
+  }
+
+  .btn.inactive {
+    opacity: 0.3;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsl(200, 100%, 75%);
+  }
 }
 
-.btn:hover:not(:disabled),
-.btn:focus:not(:disabled) {
-  background-color: hsl(200, 100%, 75%);
+/* Desktop styles*/
+@media screen and (min-width: 1200px) {
+  .btn {
+    font-size: 200%;
+    height: 20%;
+    width: 8%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    border: 2px solid black;
+    border-radius: 10%;
+    text-transform: uppercase;
+  }
+
+  .btn.active {
+    background-color: hsl(200, 100%, 75%);
+    color: white;
+  }
+
+  .btn.inactive {
+    opacity: 0.3;
+  }
+
+  .btn:hover:not(:disabled),
+  .btn:focus:not(:disabled) {
+    background-color: hsl(200, 100%, 75%);
+  }
 }

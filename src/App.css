@@ -6,17 +6,80 @@
   align-items: center;
 }
 
-.Heading {
-  font-size: 2.5rem;
-  text-align: center;
+/* Mobile styles*/
+@media screen and (min-width: 320px) {
+  .Heading {
+    font-size: 170%;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .Keyboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    width: 86%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
 }
 
-.Keyboard {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 86%;
-  align-items: center;
-  justify-content: center;
-  gap: 3%;
+/* Tablet styles*/
+@media screen and (min-width: 760px) {
+  .Heading {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .Keyboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 86%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
+}
+
+/* Laptop styles */
+@media screen and (min-width: 1000px) {
+  .Heading {
+    font-size: 270%;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .Keyboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    width: 86%;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+  }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 1200px) {
+  .Heading {
+    font-size: 330%;
+    text-align: center;
+    margin-top: 1%;
+  }
+
+  .Keyboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 86%;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+  }
 }
